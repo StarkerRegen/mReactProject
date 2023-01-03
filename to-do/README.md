@@ -1,6 +1,6 @@
 # About this
 
-[demo](https://cdn.jsdelivr.net/gh/StarkerRegen/mPIC@main/uPic/todo示意图.png)
+[demo](https://cdn.jsdelivr.net/gh/StarkerRegen/mPIC@main/uPic/todo.png)
 
 ## Prepares
 
