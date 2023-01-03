@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Bookmarks",
+  "short_name": "notion-bookmark",
+  "version": "1.0.0",
+  "description": "Store Links to Notion",
+  "icons": {
+    "16": "vercel.svg",
+    "32": "vercel.svg",
+    "64": "vercel.svg",
+    "128": "vercel.svg"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
